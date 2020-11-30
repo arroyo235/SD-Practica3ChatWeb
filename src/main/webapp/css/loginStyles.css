@@ -1,0 +1,14 @@
+@charset "ISO-8859-1";
+
+body {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px 20px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1{
+	font-size: 24px;
+	font-family: sans-serif;
+}

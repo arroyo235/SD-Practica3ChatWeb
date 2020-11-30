@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ChatWeb 1.0</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/loginStyles.css">
+</head>
+	
+<script>
+	function validateForm() {
+  		var x = document.forms["loginForm"]["username"].value;
+  		if (x == "") {
+    		alert("Debes rellenar el usuario");
+    		return false;
+ 	 	}
+	}
+</script>
+
+<body>
+	<h1>Chat Room</h1>
+	<form name="loginForm" action="index.jsp" onsubmit="return validateForm()" method="post">
+	<p>Usuario:</p>
+	
+		<input type="text" size="15" maxlength="30" name="username" placeholder="Usuario" autocomplete=""> 
+		<input type="submit" value="Login" /> 
+
+	</form>
+
+</body>
+</html>
